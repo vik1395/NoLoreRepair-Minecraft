@@ -1,0 +1,14 @@
+Block All Lores: False
+# Set this to True if you want to block any item that has a lore from being repaired.
+
+Lores: Bought from the server store;This item cannot be repaired
+# Type the lores that you want to be blocked. use a semicolon(;) to separate each lore.
+
+Block Anvil Repair: False
+# Set this to True if you want to block items from being repaired by an anvil as well.
+
+Message: This item is not allowed to be repaired.
+# Message sent to the player if he/she tries to repair an item with the specified lore.
+
+Delay: 60
+# Please give the delay (in minutes) before the /repair command cam be used again.

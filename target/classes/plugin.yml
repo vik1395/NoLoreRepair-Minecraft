@@ -1,0 +1,13 @@
+name: NoLoreRepair
+version: 1.3
+description: A plugin that allows blacklisting the repairing of items that have a certain lore.
+author: Vik1395
+
+main: me.vik1395.repair.Main
+
+commands:
+  repair:
+    description: Repairs items that don't have a specified lore.
+    aliases: [rp, fix]
+    permission: 
+    usage: /repair all, /repair hand, /repair help, /repair, /rp, /fix
