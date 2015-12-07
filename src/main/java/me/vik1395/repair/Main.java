@@ -111,7 +111,7 @@ public class Main extends JavaPlugin {
 					}
 				}
 				
-				else if(m.hasPermission("repair.nolore") || m.hasPermission("norepair.nolore"))
+				else if(m.hasPermission("repair.nolore"))
 				{
 					if(delaymap.containsKey(m.getName()))
 					{
