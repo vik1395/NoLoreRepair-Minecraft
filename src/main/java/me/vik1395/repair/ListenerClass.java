@@ -46,7 +46,7 @@ public class ListenerClass implements Listener
 						{
 							if(Main.blockall)
 							{
-								if(p.hasPermission("repair.nolore"))
+								if(p.hasPermission("repair.nolore") || p.hasPermission("norepair.nolore"))
 								{
 									p.sendMessage(ChatColor.RED + "Error: " + ChatColor.DARK_RED + "This item cannot be repaired.");
 									e.setCancelled(true);
@@ -55,7 +55,7 @@ public class ListenerClass implements Listener
 							}
 							else if(lore.contains(Main.lores[i]))
 							{
-								if(p.hasPermission("repair.nolore"))
+								if(p.hasPermission("repair.nolore") || p.hasPermission("norepair.nolore"))
 								{
 									p.sendMessage(ChatColor.RED + "Error: " + ChatColor.DARK_RED + "This item cannot be repaired.");
 									e.setCancelled(true);
