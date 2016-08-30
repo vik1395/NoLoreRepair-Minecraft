@@ -69,5 +69,3 @@ Unrepairable Item:
 
 
 This plugin is licensed under **CC Attribution-NonCommercial-ShareAlike 4.0 International**. In very basic terms, Do whatever you want with the code of this plugin, as long as you give credits to the author and/or the plugin itself.
-
-Please leave a comment or rate the plugin, and tell me what you think of it. I would really appreciate it.
